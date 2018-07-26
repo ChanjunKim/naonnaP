@@ -6,17 +6,20 @@
 <mapper namespace="com.spring.naonnaP.PeopleMapper">
 
    <resultMap type="TeamVO" id="peopleResultMap">
-      <result property="id" column="ID"/>
-      <result property="name" column="NAME"/>
-      <result property="job" column="JOB"/>
-      <result property="address" column="ADDRESS"/>
-      <result property="bloodtype" column="BLOODTYPE"/>
+      <result property="team_name" column="TEAM_NAME"/>
+      <result property="name_cap" column="NAME_CAP"/>
+      <result property="emblem" column="EMBLEM"/>
+      <result property="ability" column="ABILITY"/>
+      <result property="intro" column="INTRO"/>
+      <result property="members" column="members"/>
+      <result property="area" column="area"/>
+      <result property="point" column="POINT"/>
+      <result property="review" column="review"/>
    </resultMap>
    
  	<!--  id는 Mapper.java(여기서 PeopleMapper.java)에 동일하게 사용해야된다.  -->
+ 
  <!--  
-   
-
    <select id ="getPeopleList" resultMap="peopleResultMap">
       SELECT * FROM people order by id
    </select>

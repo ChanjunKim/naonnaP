@@ -14,7 +14,6 @@
   <link href="naonna_main.css" rel="stylesheet" type="text/css">
   <style>
   </style>
-<meta charset="UTF-8">
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 

@@ -6,11 +6,21 @@
 <mapper namespace="com.spring.naonnaP.GroundMapper">
 
    <resultMap type="GroundVO" id="peopleResultMap">
-      <result property="id" column="ID"/>
-      <result property="name" column="NAME"/>
-      <result property="job" column="JOB"/>
-      <result property="address" column="ADDRESS"/>
-      <result property="bloodtype" column="BLOODTYPE"/>
+      <result property="ground_Name" column="GROUND_NAME"/>
+      <result property="ground_admin" column="GROUND_ADMIN"/>
+      <result property="ground_addr" column="GROUND_ADDR"/>
+      <result property="grass" column="GRASS"/>
+      <result property="shower" column="SHOWER"/>
+      <result property="parking" column="PARKING"/>
+      <result property="light" column="LIGHT"/>
+      <result property="week_morning" column="WEEK_MORNING"/>
+      <result property="week_evening" column="WEEK_EVENING"/>
+      <result property="weekend_morning" column="WEEKEND_MORNING"/>
+      <result property="weekend_evening" column="WEEKEND_EVENING"/>
+      <result property="review" column="REVIEW"/>
+      <result property="photo" column="PHOTH"/>
+      <result property="rule" column="RULE"/>
+      <result property="size" column="SIZE"/>
    </resultMap>
  
  	<!--  id는 Mapper.java(여기서 PeopleMapper.java)에 동일하게 사용해야된다.  -->

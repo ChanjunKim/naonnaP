@@ -6,11 +6,13 @@
 <mapper namespace="com.spring.naonnaP.PersonVO">
 
    <resultMap type="PersonVO" id="peopleResultMap">
-      <result property="id" column="ID"/>
-      <result property="name" column="NAME"/>
-      <result property="job" column="JOB"/>
-      <result property="address" column="ADDRESS"/>
-      <result property="bloodtype" column="BLOODTYPE"/>
+      <result property="nickname" column="NICKNAME"/>
+      <result property="team_name" column="TEAM_NAME"/>
+      <result property="gender" column="GENDER"/>
+      <result property="age" column="AGE"/>
+      <result property="position" column="position"/>
+      <result property="forPerson" column="forPerson"/>
+      <result property="city" column="city"/>
    </resultMap>
    
 

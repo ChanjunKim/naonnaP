@@ -13,6 +13,7 @@ public class TeamVO {
 	private String area;
 	private int point;
 	private String review;
+	
 	public String getTeam_name() {
 		return team_name;
 	}
