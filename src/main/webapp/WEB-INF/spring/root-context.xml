@@ -15,15 +15,15 @@
 	
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="dataSource" ref="dataSource"></property>
-		<!-- 이 부분은 편집!! -->
+	<!-- 이 부분은 편집!! -->
 		<property name="typeAliasesPackage" value="com.spring.naonnaP"></property>
-		<!-- <property name="mapperLocations" value="classpath:/com/spring/naonnaP/MemberMapper.xml"></property> -->
-		<!-- 이 부분은 편집!! -->
+	<!-- <property name="mapperLocations" value="classpath:/com/spring/naonnaP/MemberMapper.xml"></property> -->
+	<!-- 이 부분은 편집!! -->
 		<property name="mapperLocations" value="classpath:/com/spring/naonnaP/**/*.xml"></property>
 	</bean>
 	
 	<bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">
 		<constructor-arg ref="sqlSessionFactory"></constructor-arg>
 	</bean>		
-			
+
 </beans>
